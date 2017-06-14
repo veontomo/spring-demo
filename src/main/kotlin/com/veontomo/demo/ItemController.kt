@@ -10,6 +10,7 @@ import org.springframework.stereotype.Controller
  * Created by Andrea on 10/06/2017.
  */
 @Controller
+@EnableAutoConfiguration
 class ItemController() {
 
     @RequestMapping("/greeting")
